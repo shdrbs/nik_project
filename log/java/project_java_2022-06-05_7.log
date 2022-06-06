@@ -1,0 +1,395 @@
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. Connection.clearWarnings() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. Connection.prepareStatement(select * from product_image where id = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@76e8e11
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.setInt(1, 2284) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- select * from product_image where id = 2284 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- select * from product_image where id = 2284 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@229525fe
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@175822a1
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.getInt(ID) returned 2284
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.getString(FILENAME) returned 남자셔츠1.jpg
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.getString(UPLOADPATH) returned 2022\06\05
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.getString(UUID) returned 41d29cd9-247a-4ee3-8d71-5209a6cc7ff4
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 
+|-----|----------|-----------|-------------------------------------|
+|id   |filename  |uploadpath |uuid                                 |
+|-----|----------|-----------|-------------------------------------|
+|2284 |남자셔츠1.jpg |2022\06\05 |41d29cd9-247a-4ee3-8d71-5209a6cc7ff4 |
+|-----|----------|-----------|-------------------------------------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-12] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-15] -- getImage()........2022\06\05/thumbnail_128c4fa4-0d37-49f5-a262-a0d30a8e8511_여자치마2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-18] -- getImage()........2022\06\05/thumbnail_f22617e6-599f-4e6d-aa1f-85508eb5634d_여자힐1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-26] -- getImage()........2022\06\05/thumbnail_a558fe53-d123-44db-b289-d8c9113f7fe2_남자반바지1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-18] -- getImage()........2022\06\05/thumbnail_41d29cd9-247a-4ee3-8d71-5209a6cc7ff4_남자셔츠1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-26] -- getImage()........2022\06\05/thumbnail_3703c193-7085-4372-9e71-dde0a0bd47e3_남자런닝화1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-18] -- getImage()........2022\06\05/thumbnail_58800521-aac2-4403-836f-b5fa362818a2_남자청바지2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-26] -- getImage()........2022\06\05/thumbnail_785f601d-96a0-4e7d-9570-4b44f08dff46_남자셔츠2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-24] -- getImage()........2022\06\05/thumbnail_601b41ae-5bf1-4e57-9c7f-443b1ccbdf20_남자반팔1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-25] -- getImage()........2022\06\05/thumbnail_24b9dd7b-c9ac-45d3-a164-7f206d55e5c1_남자샌들1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-12] -- getImage()........2022\06\05/thumbnail_79b9981b-3643-4861-9726-85a36f0ee88c_남자셔츠5.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-25] -- getImage()........2022\06\05/thumbnail_6b0a0af1-a50d-4e00-94b9-1a8754c58852_남자셔츠6.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-26] -- getImage()........2022\06\05/thumbnail_ccd2e71a-3529-4f3a-9de9-c6177d6606b3_남자운동화1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-26] -- getImage()........2022\06\05/thumbnail_83047915-5de7-46dd-bdf1-494e54044ad1_남자청바지1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-23] -- getImage()........2022\06\05/thumbnail_2245fb8a-4d5f-40fe-9ec0-5a1ed1d24cd2_여자힐2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-23] -- getImage()........2022\06\05/thumbnail_e4a069f0-ff03-48c1-a5ee-db8f629f03b5_남자후드티1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-22] -- getImage()........2022\06\05/thumbnail_7ac9db55-c40e-4650-b91e-d73a8a6bb478_여자반팔1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-23] -- getImage()........2022\06\05/thumbnail_f71b1755-2c5c-4607-8e7e-24569b61392a_여자반팔2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-22] -- getImage()........2022\06\05/thumbnail_7a88e2b2-2085-498e-b8bd-ce6af1d6105a_여자샌들1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-23] -- getImage()........2022\06\05/thumbnail_7133fc81-a8e1-4329-bbb1-9d2f08aeff71_여자셔츠1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-18] -- getImage()........2022\06\05/thumbnail_1ae5871c-fa0d-4f6c-96a3-cc19ddd94336_여자셔츠2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-18] -- getImage()........2022\06\05/thumbnail_8c165b6e-2243-4729-9499-067bf0385513_여자셔츠3.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-12] -- getImage()........2022\06\05/thumbnail_cd1f146e-c91f-4885-ab1d-b7df61216699_여자치마1.jpg
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. Connection.isValid(5) returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. Connection.prepareStatement(select *
+	    from member
+	    where memberId = ?
+	    order by regDate desc) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4e16a210
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. PreparedStatement.setString(1, "admin") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- select * from member where memberId = 'admin' order by regDate desc 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- select * from member where memberId = 'admin' order by regDate desc 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@733ba22
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@31ae812d
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERID) returned admin
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERPW) returned $2a$10$d1AkvMyBqrce7N2XQXMcSOVkd.vblqax.FhhGTfEAgc8lpJfBpl3u
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERNAME) returned 관리자
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERMAIL) returned noin0527@naver.com
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERADDR1) returned 06035
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERADDR2) returned 서울 강남구 가로수길 5 (신사동)
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERADDR3) returned 1234
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getInt(ADMINCK) returned 1
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getTimestamp(REGDATE) returned 2022-06-03 03:16:57.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getInt(MONEY) returned 44218
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getInt(POINT) returned 3616
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.getString(MEMBERPHONE) returned 01011111111
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|------|------|------------|
+|memberid |memberpw                                                     |membername |membermail         |memberaddr1 |memberaddr2         |memberaddr3 |adminck |regdate               |money |point |memberphone |
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|------|------|------------|
+|admin    |$2a$10$d1AkvMyBqrce7N2XQXMcSOVkd.vblqax.FhhGTfEAgc8lpJfBpl3u |관리자        |noin0527@naver.com |06035       |서울 강남구 가로수길 5 (신사동) |1234        |1       |2022-06-03 03:16:57.0 |44218 |3616  |01011111111 |
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|------|------|------------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-17] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-23] -- 관리자 페이지 이동
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-14] -- 회원 관리 페이지 접속Criteria [pageNum=1, amount=10, skip=0, type=null, keyword=null, cateCode=null, id=0]
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.isValid(5) returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.prepareStatement(select * from(
+	        select A.*, rownum as rn
+	            from
+	            (
+	                select *
+	                from member
+	                 
+	         
+	            order by regDate desc
+	            ) A
+	            where rownum <= ? * ?
+	        )where rn > (? -1) * ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@22f5e3c3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.setInt(1, 1) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.setInt(2, 10) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.setInt(3, 1) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.setInt(4, 10) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- select * from( select A.*, rownum as rn from ( select * from member order by regDate desc ) 
+A where rownum <= 1 * 10 )where rn > (1 -1) * 10 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- select * from( select A.*, rownum as rn from ( select * from member order by regDate desc ) 
+A where rownum <= 1 * 10 )where rn > (1 -1) * 10 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@61d49c45
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@3ac19e1e
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERID) returned test
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERPW) returned $2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERNAME) returned 테스트
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERMAIL) returned noin0527@naver.com
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERADDR1) returned 06035
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERADDR2) returned 서울 강남구 가로수길 5 (신사동)
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERADDR3) returned 1111
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(ADMINCK) returned 0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getTimestamp(REGDATE) returned 2022-06-04 18:57:35.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(MONEY) returned 100000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(POINT) returned 5000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERPHONE) returned 01011112222
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERID) returned admin
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERPW) returned $2a$10$d1AkvMyBqrce7N2XQXMcSOVkd.vblqax.FhhGTfEAgc8lpJfBpl3u
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERNAME) returned 관리자
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERMAIL) returned noin0527@naver.com
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERADDR1) returned 06035
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERADDR2) returned 서울 강남구 가로수길 5 (신사동)
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERADDR3) returned 1234
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(ADMINCK) returned 1
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getTimestamp(REGDATE) returned 2022-06-03 03:16:57.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(MONEY) returned 44218
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(POINT) returned 3616
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getString(MEMBERPHONE) returned 01011111111
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|-------|------|------------|---------|
+|memberid |memberpw                                                     |membername |membermail         |memberaddr1 |memberaddr2         |memberaddr3 |adminck |regdate               |money  |point |memberphone |rn       |
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|-------|------|------------|---------|
+|test     |$2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO |테스트        |noin0527@naver.com |06035       |서울 강남구 가로수길 5 (신사동) |1111        |0       |2022-06-04 18:57:35.0 |100000 |5000  |01011112222 |[unread] |
+|admin    |$2a$10$d1AkvMyBqrce7N2XQXMcSOVkd.vblqax.FhhGTfEAgc8lpJfBpl3u |관리자        |noin0527@naver.com |06035       |서울 강남구 가로수길 5 (신사동) |1234        |1       |2022-06-03 03:16:57.0 |44218  |3616  |01011111111 |[unread] |
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|-------|------|------------|---------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-14] -- list : [MemberVO(memberId=test, memberPw=$2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO, memberName=테스트, memberPhone=01011112222, memberMail=noin0527@naver.com, memberAddr1=06035, memberAddr2=서울 강남구 가로수길 5 (신사동), memberAddr3=1111, adminCk=0, regDate=Sat Jun 04 18:57:35 KST 2022, money=100000, point=5000), MemberVO(memberId=admin, memberPw=$2a$10$d1AkvMyBqrce7N2XQXMcSOVkd.vblqax.FhhGTfEAgc8lpJfBpl3u, memberName=관리자, memberPhone=01011111111, memberMail=noin0527@naver.com, memberAddr1=06035, memberAddr2=서울 강남구 가로수길 5 (신사동), memberAddr3=1234, adminCk=1, regDate=Fri Jun 03 03:16:57 KST 2022, money=44218, point=3616)]
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.prepareStatement(select count(*) from member) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@180a1ae4
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- select count(*) from member 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- select count(*) from member 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@15ec19dd
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@509f8991
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(COUNT(*)) returned 2
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 
+|---------|
+|count(*) |
+|---------|
+|2        |
+|---------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.clearWarnings() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.prepareStatement(select count(*) from member) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@57fa15a3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- select count(*) from member 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- select count(*) from member 
+ {executed in 0 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@100f62ec
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@1c51431e
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.getInt(COUNT(*)) returned 2
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 
+|---------|
+|count(*) |
+|---------|
+|2        |
+|---------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-14] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-14] -- pageMaker : PageDTO [pageStart=1, pageEnd=1, next=false, prev=false, total=2, cri=Criteria [pageNum=1, amount=10, skip=0, type=null, keyword=null, cateCode=null, id=0]]
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-14] -- 상품 리스트 : MemberVO(memberId=test, memberPw=$2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO, memberName=테스트, memberPhone=01011112222, memberMail=noin0527@naver.com, memberAddr1=06035, memberAddr2=서울 강남구 가로수길 5 (신사동), memberAddr3=1111, adminCk=0, regDate=Sat Jun 04 18:57:35 KST 2022, money=100000, point=5000)
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-22] -- memberGetInfo().........test
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.isValid(5) returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.prepareStatement(select * from member where memberId = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@56f3cccc
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.setString(1, "test") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- select * from member where memberId = 'test' 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- select * from member where memberId = 'test' 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@13f15876
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@12c63bf3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERID) returned test
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERPW) returned $2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERNAME) returned 테스트
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERMAIL) returned noin0527@naver.com
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERADDR1) returned 06035
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERADDR2) returned 서울 강남구 가로수길 5 (신사동)
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERADDR3) returned 1111
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getInt(ADMINCK) returned 0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getTimestamp(REGDATE) returned 2022-06-04 18:57:35.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getInt(MONEY) returned 100000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getInt(POINT) returned 5000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.getString(MEMBERPHONE) returned 01011112222
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|-------|------|------------|
+|memberid |memberpw                                                     |membername |membermail         |memberaddr1 |memberaddr2         |memberaddr3 |adminck |regdate               |money  |point |memberphone |
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|-------|------|------------|
+|test     |$2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO |테스트        |noin0527@naver.com |06035       |서울 강남구 가로수길 5 (신사동) |1111        |0       |2022-06-04 18:57:35.0 |100000 |5000  |01011112222 |
+|---------|-------------------------------------------------------------|-----------|-------------------|------------|--------------------|------------|--------|----------------------|-------|------|------------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-22] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-18] -- memberModifyPOST..........MemberVO(memberId=test, memberPw=null, memberName=테스트, memberPhone=01012345678, memberMail=noin0527@naver.com, memberAddr1=06035, memberAddr2=서울 강남구 가로수길 5 (신사동), memberAddr3=1111, adminCk=0, regDate=null, money=100000, point=5000)
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. Connection.isValid(5) returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. Connection.prepareStatement(update member set memberName = ?,
+						memberMail = ?,
+						memberAddr1 = ?,
+						memberAddr2 = ?,
+						memberAddr3 = ?,
+						money = ?,
+						point = ?,
+						memberPhone = ?
+		where memberId = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4e233779
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(1, "테스트") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(2, "noin0527@naver.com") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(3, "06035") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(4, "서울 강남구 가로수길 5 (신사동)") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(5, "1111") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setInt(6, 100000) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setInt(7, 5000) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(8, "01012345678") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.setString(9, "test") returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- update member set memberName = '테스트', memberMail = 'noin0527@naver.com', memberAddr1 = '06035', 
+memberAddr2 = '서울 강남구 가로수길 5 (신사동)', memberAddr3 = '1111', money = 100000, point = 5000, memberPhone 
+= '01012345678' where memberId = 'test' 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- update member set memberName = '테스트', memberMail = 'noin0527@naver.com', memberAddr1 = '06035', 
+memberAddr2 = '서울 강남구 가로수길 5 (신사동)', memberAddr3 = '1111', money = 100000, point = 5000, memberPhone 
+= '01012345678' where memberId = 'test' 
+ {executed in 2 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.execute() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.getUpdateCount() returned 1
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-18] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.AdminController] [http-nio-0.0.0.0-8080-exec-27] -- 회원 관리 페이지 접속Criteria [pageNum=1, amount=10, skip=0, type=null, keyword=null, cateCode=null, id=0]
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. Connection.prepareStatement(select * from(
+	        select A.*, rownum as rn
+	            from
+	            (
+	                select *
+	                from member
+	                 
+	         
+	            order by regDate desc
+	            ) A
+	            where rownum <= ? * ?
+	        )where rn > (? -1) * ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@78abb934
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.setInt(1, 1) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.setInt(2, 10) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.setInt(3, 1) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.setInt(4, 10) returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- select * from( select A.*, rownum as rn from ( select * from member order by regDate desc ) 
+A where rownum <= 1 * 10 )where rn > (1 -1) * 10 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- select * from( select A.*, rownum as rn from ( select * from member order by regDate desc ) 
+A where rownum <= 1 * 10 )where rn > (1 -1) * 10 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@766c5851
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@7253d244
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.getString(MEMBERID) returned test
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-27] -- 1. ResultSet.getString(MEMBERPW) returned $2a$10$OvLJUtYfrq62uIsUyILwKeo7oxlcwOYLufRfp50Imst53QqWCYApO

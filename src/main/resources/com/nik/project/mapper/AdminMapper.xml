@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nik.project.mapper.AdminMapper">
+
+	<!-- 상품 등록 -->
+  	<insert id="productRegist">
+  		<!-- <selectKey> : 쿼리(예를 들어 insert)에서 수행된 특정 칼럼 값을 반환받기 위해 사용 -->
+  		<selectKey resultType="int" keyProperty="id" order="AFTER">
+  			SELECT MAX(id) FROM product
+  		</selectKey>
+  		insert into product(id, name, publeYear, cateCode, price, stock, discount, intro)
+		values(product_seq.NEXTVAL, #{name}, #{publeYear}, #{cateCode}, #{price}, #{stock}, #{discount}, #{intro})
+  	</insert>
+
+  	<!-- 카테고리 리스트 -->
+  	<select id="cateList" resultType="com.nik.project.model.CateVO">
+  		select * from cate order by catecode
+  	</select>
+
+  	<!-- 상품 리스트 페이징-->
+  	<select id="productGetList" resultType="com.nik.project.model.ProductVO">
+	  	select  *
+			from(
+			    select A.*, rownum as rn
+				    from
+				    (
+				        select id, name, c.cateName, stock, a.regDate
+				        from product a
+						left outer join cate c
+				        on a.cateCode = c.cateCode
+				        <if test="keyword != null">
+				        	where name like '%' || #{keyword} || '%'
+				        </if>
+						order by id desc
+					) A
+				    where rownum &lt;= #{pageNum} * #{amount}
+				)where rn &gt; (#{pageNum} -1) * #{amount}
+
+  	</select>
+
+  	<!-- 상품 총 갯수 -->
+  	<select id="productGetTotal" resultType="int">
+  		select count(*) from product
+
+  		<if test="keyword != null">
+  			where name like '%' || #{keyword} || '%'
+		</if>
+  	</select>
+
+  	<!-- 상품 조회 페이지 -->
+	<select id="productGetDetail" resultType="com.nik.project.model.ProductVO">
+		select id, name, publeYear, cateCode, price, stock, discount, intro, regDate, updateDate
+		from product where id = #{id}
+	</select>
+
+	<!-- 상품 정보 수정 -->
+	<update id="productModify">
+		update product set name = #{name}, publeYear = #{publeYear}, cateCode = ${cateCode}, price = #{price},
+			stock = #{stock}, discount = #{discount}, intro = #{intro}, updateDate = sysdate
+		where id = #{id}
+	</update>
+
+	<!-- 상품 정보 삭제 -->
+	<delete id="productDelete">
+		delete from product where id = #{id}
+	</delete>
+
+	<!-- 이미지 등록 -->
+	<insert id="imageRegist">
+		insert into product_image(id, fileName, uploadPath, uuid) values (#{id}, #{fileName}, #{uploadPath}, #{uuid})
+	</insert>
+
+	<!-- 지정한 상품 이미지 전체 삭제 -->
+	<delete id="deleteImageAll">
+		delete FROM product_image where id = #{id}
+	</delete>
+
+	<!-- 어제자 날자 이미지 리스트 -->
+	<!-- to_char() : 지정 시간을 원하는 형태로 출력해주는 함수 -->
+	<select id="checkFileList" resultType="com.nik.project.model.AttachImageVO">
+		select * from product_image where uploadpath = to_char(sysdate -1, 'yyyy\mm\dd')
+	</select>
+
+	<!-- 지정 상품 이미지 정보 얻기 -->
+	<select id="getAttachInfo" resultType="com.nik.project.model.AttachImageVO">
+		select * from product_image where id = #{id}
+	</select>
+
+	<!-- 주문 리스트 -->
+	<select id="getOrderList" resultType="com.nik.project.model.OrderDTO">
+		select * from(
+		select A.*, rownum as rn from(
+		    select a.orderId, a.memberId, a.orderstate, a.orderdate, b.name
+		    from product_order a
+		    left outer join product_orderItem b
+			on a.orderId = b.orderId
+		<if test="keyword != null">
+			where memberId like '%'||#{keyword}||'%' or
+				  b.name like '%'||#{keyword}||'%'
+		</if>
+		<![CDATA[
+		    order by orderdate desc
+		    ) A
+		    where rownum <= #{pageNum} * #{amount}
+		)where rn > (#{pageNum} -1) * #{amount}
+		]]>
+	</select>
+
+	<!-- 주문 상품 총 개수 -->
+	<select id="getOrderTotal" resultType="int">
+		select count(*)
+		from product_order a
+		left outer join product_orderItem b
+		on a.orderId = b.orderId
+
+	    <if test="keyword != null">
+	    	where memberId like '%'||#{keyword}||'%' or
+				  b.name like '%'||#{keyword}||'%'
+	    </if>
+
+	</select>
+
+	<!-- 회원 리스트 페이징 -->
+	<select id="memberGetList" resultType="com.nik.project.model.MemberVO">
+		select * from(
+	        select A.*, rownum as rn
+	            from
+	            (
+	                select *
+	                from member
+	                <if test="keyword != null">
+			  			where memberName like '%' || #{keyword} || '%' or
+			  				  memberId like '%' || #{keyword} || '%'
+					</if>
+	        <![CDATA[
+	            order by regDate desc
+	            ) A
+	            where rownum <= #{pageNum} * #{amount}
+	        )where rn > (#{pageNum} -1) * #{amount}
+	        ]]>
+	</select>
+
+	<!-- 회원 총 인원수 -->
+  	<select id="memberTotal" resultType="int">
+  		select count(*) from member
+
+  		<if test="keyword != null">
+  			where memberName like '%' || #{keyword} || '%' or
+  				  memberId like '%' || #{keyword} || '%'
+		</if>
+  	</select>
+
+  	<!-- 회원 조회 페이지 -->
+	<select id="memberGetModify" resultType="com.nik.project.model.MemberVO">
+		select * from member where memberId = #{memberId}
+	</select>
+
+	<!-- 회원 정보 수정 -->
+	<update id="memberModify">
+		update member set memberName = #{memberName},
+						memberMail = #{memberMail},
+						memberAddr1 = #{memberAddr1},
+						memberAddr2 = #{memberAddr2},
+						memberAddr3 = #{memberAddr3},
+						money = #{money},
+						point = #{point},
+						memberPhone = #{memberPhone}
+		where memberId = #{memberId}
+	</update>
+
+	<!-- 회원 정보 삭제 -->
+	<delete id="memberDelete">
+		delete from member where memberId = #{memberId}
+	</delete>
+
+</mapper>

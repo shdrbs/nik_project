@@ -1,0 +1,47 @@
+@charset "UTF-8";
+.clearfix {zoom:1;}
+.clearfix:before, .clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;}
+
+/* 제품 목록 네비 */
+.navi_bar_area { height:52px; background-color: #FFC107; text-align: center; }
+.navi_bar_area a { float: left; font-size: 16px; color: white; text-align: center; padding: 14px 16px;
+	text-decoration: none; }
+.dropdown1 { overflow: hidden; margin-left: 10px; display: inline-block; }
+.dropdown1 .dropbtn { font-size: 16px; font-weight: bold; border: none; outline: none; color: #212529;
+	padding: 14px 16px; background-color: inherit; font-family: inherit; margin: 0; width:140px; }
+.dropdown1-content { display:none; position: absolute; background-color: #f9f9f9; width: 140px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
+.dropdown1-content a { float: none; color: black; padding: 12px 16px; text-decoration: none;
+	display: inline-block; width: 80px; }
+.dropdown1:hover .dropdown1-content { display: block; }
+.navi_bar_area a:hover, .dropdown1:hover .dropbtn { background-color: #212529; color: #FFC107; }
+.dropdown1-content a:hover { background-color: #ddd; }
+
+
+/* 상품 평점순 출력 관련 태그 */
+.ls_wrap{width: 90%; margin: auto;}
+.ls_div_content{ width: 350px; height: 300px; margin: auto;}
+.ls_product{ height: 60%; display: flex; overflow:hidden; margin:0 auto; text-align: center;}
+.ls_a{text-decoration: none;}
+.img_thumbnail{margin: 0 auto;}
+.ls_category{ text-align: center; font-size: 13px; color: #3e74ab; }
+.ls_rating{ text-align: center; font-size: 13px; color: #e15b6e; }
+.ls_name{ text-align: center; color: #333; font-size: 15px; font-weight: bold; }
+.ls_div_subject{ font-weight: bold; font-size: 26px; margin-left: 70px;}
+.ls_div_content_prev{ position: absolute; top: 40%; width: 60px; height: 40px; left: 30px; font-weight: bold;
+    z-index: 1; opacity: 35%; }
+.ls_div_content_prev:hover{ opacity: 80%; }
+.ls_div_content_next{ position: absolute; top: 40%; width: 40px; height: 30px; right: 10px; font-weight: bold;
+    z-index: 1; opacity: 35%; }
+.ls_div_content_next:hover{ opacity: 80%; }
+
+/* 신상품 */
+.np_div_content{ width: 350px; height: 350px; text-align:center; display:table; margin-left: 50px;}
+.new_product{margin:0; display:table-cell; vertical-align:middle;}
+.new_img_thumbnail{max-width:350px; max-height:350px;}
+.new_div_title{font-weight: bold; font-size: 26px; margin-top:20px; margin-left: 70px;}
+.new_div_content{text-align: center;}
+
+
+

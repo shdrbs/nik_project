@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.clearfix {zoom:1;}
+.clearfix:before, .clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;}
+
+/* 홈페이지 메인 제품 목록  */
+.content_area { width: 70%; margin: auto; margin-top: 10%;}
+
+article#view_box { width:680px; font-size:13pt; line-height:20pt;}
+form fieldset legend.view_title {font-size: 17pt;border-bottom: 1px dotted #ccc;width: 680px;padding: 10px 0;margin:20px 0;}
+
+
+

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nik.project.mapper.ProductMapper">
+
+	<!-- criteria(검색조건) -->
+	<!-- <sql> 태그는 다른 구문에서 재사용가능한 SQL구문을 정의할 때 사용 -->
+	<!-- 주의해야 할 점은 <sql> 태그 내에 있는 쿼리들을 재사용하고 싶다면 재사용할 쿼리의 상단에 선언되어야 한다 -->
+	<sql id="criteria">
+		<trim prefix="(" suffix=") AND" prefixOverrides="AND">
+			<foreach item="type" collection="typeArr">
+				<trim prefix="AND">
+					<choose>
+						<when test="type == 'T'.toString()">
+							name like '%' || #{keyword} || '%'
+						</when>
+						<when test="type == 'C'.toString()">
+	  						cateCode = #{cateCode}
+	  					</when>
+					</choose>
+				</trim>
+			</foreach>
+		</trim>
+	</sql>
+
+	<!-- 상품 검색 -->
+	<select id="productGetList" resultType="com.nik.project.model.ProductVO">
+
+	    <![CDATA[
+		    select * from(
+		        select /*+INDEX_DESC(product SYS_C007505)*/ rownum as rn, id, name,
+		            (select cateName from cate where product.cateCode = cate.cateCode) cateName,cateCode, publeYear, price,discount
+		        from product
+		        where
+	    ]]>
+
+	    <include refid="criteria"></include>
+
+	    <![CDATA[
+		        rownum <= #{pageNum} * #{amount}
+	        	)
+	        where rn > (#{pageNum} -1) * #{amount}
+		]]>
+
+	</select>
+
+	<!-- 상품 총 개수 -->
+	<select id="productGetTotal" resultType="int">
+		select count(*) from product
+		where
+		<include refid="criteria"></include>
+		id > 0
+	</select>
+
+	<!-- 남성 카테고리 리스트 -->
+	<select id="getCateCode1" resultType="com.nik.project.model.CateVO">
+			select * from cate where
+				  cateCode = 101001 or
+			      cateCode = 101002 or
+			      cateCode = 101003 or
+			      cateCode = 102001 or
+			      cateCode = 102002 or
+			      cateCode = 103001 or
+			      cateCode = 103002 or
+			      cateCode = 103003 or
+			      cateCode = 103004
+	</select>
+
+	<!-- 여성 카테고리 리스트 -->
+	<select id="getCateCode2" resultType="com.nik.project.model.CateVO">
+			select * from cate where
+				  cateCode = 201001 or
+			      cateCode = 201002 or
+			      cateCode = 201003 or
+			      cateCode = 202001 or
+			      cateCode = 202002 or
+			      cateCode = 203001 or
+			      cateCode = 203002 or
+			      cateCode = 203003
+	</select>
+
+	<!-- 검색 대상 카테고리 리스트 -->
+	<select id="getCateList" resultType="String">
+		select DISTINCT cateCode from product
+		where
+			<choose>
+				<when test="type == 'T'.toString()">
+					name like '%' || #{keyword} || '%'
+				</when>
+				<when test="type == 'C'.toString()">
+					cateCode = #{cateCode}
+				</when>
+				<when test="type == 'TC'.toString()">
+					name like '%' || #{keyword} || '%' and cateCode = #{cateCode}
+				</when>
+			</choose>
+	</select>
+
+	<!-- 카테고리 정보(+검색대상 갯수) -->
+	<select id="getCateInfo" resultType="com.nik.project.model.CateFilterDTO">
+
+		select DISTINCT count(*) cateCount, a.cateCode, b.cateName
+		from product a
+		left join cate b
+		on a.cateCode = b.cateCode
+		where
+			<choose>
+				<when test="type == 'T'.toString()">
+					name like '%' || #{keyword} || '%'
+				</when>
+				<when test="type == 'C'.toString()">
+					a.cateCode = #{cateCode}
+				</when>
+				<when test="type == 'TC'.toString()">
+					name like '%' || #{keyword} || '%' and a.cateCode = #{cateCode}
+				</when>
+			</choose>
+
+  		group by a.cateCode, b.cateName
+	</select>
+
+	<!-- 상품 정보 -->
+	<select id="getProductInfo" resultType="com.nik.project.model.ProductVO">
+			select a.id, a.name, a.publeyear, a.cateCode, c.cateName, a.price, a.stock, a.discount, a.intro
+			from product a
+			left outer join cate c on a.catecode = c.catecode
+			where id = #{id}
+	</select>
+
+	<!-- 상품 id 이름 -->
+	<select id="getProductIdName" resultType="com.nik.project.model.ProductVO">
+		select id, name from product  where id = #{id}
+	</select>
+
+	<!-- 평점순 상품 정보 -->
+	<select id="likeSelect" resultType="com.nik.project.model.SelectDTO">
+		select * from
+		(select rownum as rn, id, name, ratingAvg,
+		(select cateName from cate c where p.cateCode = c.cateCode) as cateName
+		from product p
+		order by ratingAvg desc nulls last)
+	</select>
+
+	<!-- 최근 등록 상품 정보 -->
+	<select id="newProduct" resultType="com.nik.project.model.SelectDTO">
+		select * from
+		(select rownum as rn, id, name, regdate, intro, ratingAvg,
+		(select cateName from cate c where p.cateCode = c.cateCode) as cateName
+		from product p
+		order by regdate desc nulls last)
+	</select>
+
+</mapper>

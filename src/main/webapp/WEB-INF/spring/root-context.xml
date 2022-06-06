@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:task="http://www.springframework.org/schema/task"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
+		http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.3.xsd
+		http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
+
+	<!-- Root Context: defines shared resources visible to all other web components -->
+
+	<!-- Transaction Manager : @Transactional-->
+	<tx:annotation-driven transaction-manager="txManager"/>
+
+	<!-- annotation기반 트랜잭션을 사용하기 위해 추가 -->
+	<tx:annotation-driven />
+
+	<!-- annotation기반 quartz를 사용하기 위해 추가 -->
+	<task:annotation-driven/>
+
+	<bean id="txManager"
+		  class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource" />
+		<property name="rollbackOnCommitFailure" value="true" />
+	</bean>
+
+	<!-- Transaction Template -->
+	<bean id="txTemplate"
+			class="org.springframework.transaction.support.TransactionTemplate">
+		<property name="transactionManager" ref="txManager" />
+	</bean>
+
+	<!-- HikariCP -->
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+        <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
+		<property name="jdbcUrl" value="jdbc:log4jdbc:oracle:thin:@182.215.106.3:1521:xe" />
+		<property name="username" value="nik" />
+		<property name="password" value="nik" />
+    </bean>
+	<!-- HikariCP Configuration -->
+   	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+        <constructor-arg ref="hikariConfig"/>
+    </bean>
+
+    <bean id="mybatisConfig" class="org.apache.ibatis.session.Configuration">
+		<property name="mapUnderscoreToCamelCase" value="true" />
+	</bean>
+
+	<bean id="sqlSessionFactoryBean"
+		  class="org.mybatis.spring.SqlSessionFactoryBean"
+		  p:dataSource-ref="dataSource"
+		  p:configuration-ref="mybatisConfig"
+		  p:typeAliasesPackage="com.nik.project.domain" />
+
+	<bean id="sqlSession"
+		  class="org.mybatis.spring.SqlSessionTemplate"
+		  c:sqlSessionFactory-ref="sqlSessionFactoryBean" />
+
+	<!-- gmail설정 -->
+	<!-- <bean id="mailSender2" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username" value="wntmxld55@gmail.com"/>
+		<property name="password" value="tmfrl90431!"/>
+		보안연결 TLS과 관련된 설정
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.auth">true </prop>
+				<prop key="mail.transport.protocol">smtp</prop>
+				<prop key="mail.debug">true</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.gmail.com</prop>
+				<prop key="mail.smtp.ssl.protocols">TLSv1.2</prop>
+			</props>
+		</property>
+	</bean> -->
+
+	<!-- naver설정 -->
+	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.naver.com" />
+		<property name="port" value="587" />
+		<property name="username" value="noin0527@naver.com" />
+		<property name="password" value="cyvk90432@" />
+		<property name="defaultEncoding" value="utf-8" />
+		<property name="javaMailProperties">
+			<props>
+			  	<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.smtp.auth">true </prop>
+				<prop key="mail.transport.protocol">smtp</prop>
+				<prop key="mail.debug">true</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.naver.com</prop>
+				<prop key="mail.smtp.ssl.protocols">TLSv1.2</prop>
+			</props>
+		</property>
+	</bean>
+
+
+
+	<!-- 트랜잭션 -->
+	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+
+	<mybatis-spring:scan base-package="com.nik.project.mapper"/>
+
+	<context:component-scan base-package="com.nik.project" />
+
+</beans>

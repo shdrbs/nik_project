@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.clearfix {zoom:1;}
+.clearfix:before, .clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;}
+
+/* 필터정보 */
+.search_filter { width: 85%; margin: auto; margin-top: 30px; margin-bottom: 50px;}
+.filter_button_wrap { width: 100%; }
+.filter_button_wrap button { width: 50%; }
+
+.filter_button{ background-color: #888888; border: none; color: white; padding: 10px 24px; cursor: pointer; float: left;}
+.filter_button_wrap:after { content: ""; clear: both; display: table; }
+.filter_button_wrap button:not(:last-child) { border-right: none; }
+.filter_button:hover {background-color: #212529;}
+.filter_active{background-color: #212529;}
+.filter_content{padding:20px 50px 20px 50px;border: 1px solid gray;}
+.filter_content a{margin-left: 10px; text-decoration: none; color: black; font-weight: bold;}
+.filter_a{display: block;}
+.filter_b{display: none;}
+
+
+/* 홈페이지 메인 제품 목록  */
+.list_search_result{}
+.type_list{border-collapse: collapse; margin: auto;}
+.type_list tr{height:200px;}
+.detail div{text-align:center;margin-bottom: 5px;}
+.detail{padding-left: 30px;}
+.category{font-size: 12px;font-weight: 600;}
+.title{font-size: 20px;color: #3a60df;font-weight: 700;}
+.publeyear{font-size: 14px;}
+.info{text-align: center;padding-left: 50px;}
+.price{text-align: center;padding-left: 30px;}
+.org_price del{font-size: 13px;}
+.sell_price strong{color: #da6262;font-size: 18px;}
+.option{width: 70px;}
+
+/* 상품 이미지 관련 */
+.image_wrap { width: 300px; height: 300px; display:table-cell; vertical-align:middle; }
+.image_wrap img { max-width: 100%; }
+
+
+/* 페이지 버튼 인터페이스 */
+.pageMaker_wrap{ text-align: center; margin-top: 30px; margin-bottom: 40px; }
+.pageMaker{list-style: none; display: inline-block; }
+.pageMaker_btn { float: left; width: 40px; height: 40px; line-height: 40px; margin-left: 20px; text-decoration: none;}
+.active{ border : 2px solid black; font-weight:400; }
+.next, .prev { border: 1px solid #ccc;}
+
+.pageMaker_btn a:link {color: black;}
+.pageMaker_btn a:visited {color: black;}
+.pageMaker_btn a:active {color: black;}
+.pageMaker_btn a:hover {color: black;}
+.next a, .prev a {color: #ccc;}
+
+/* 검색결과 없음 */
+.table_empty{height: 50px;text-align: center;margin: 200px 0 215px 0px;font-size: 25px;}
+.page_num{text-decoration: none;}
+
+
+
+
+

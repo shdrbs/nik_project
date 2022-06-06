@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.nik.project.mapper.CartMapper">
+
+	<!-- 장바구니 추가 -->
+	<insert id="addCart">
+		insert into product_cart(cartId, memberId, id, count)
+		values(cart_seq.nextval, #{memberId}, #{id}, #{count})
+	</insert>
+
+	<!-- 장바구니 삭제 -->
+	<delete id="deleteCart">
+		delete from product_cart where cartId = #{cartId}
+	</delete>
+
+	<!-- 장바구니 수량 수정 -->
+	<update id="modifyCount">
+		update product_cart set count=#{count} where cartId = #{cartId}
+	</update>
+
+	<!-- 장바구니 목록 리스트 -->
+	<select id="getCartList" resultType="com.nik.project.model.CartDTO">
+		select a.cartId, a.memberId, a.id, a.count, b.name, b.price, b.discount
+		from product_cart a left outer join product b on a.id = b.id
+		where memberId = #{memberId}
+	</select>
+
+	<!-- 장바구니 확인 -->
+	<select id="checkCart" resultType="com.nik.project.model.CartDTO">
+		select * from product_cart
+		where memberId = #{memberId} and id = #{id}
+	</select>
+
+	<!-- 장바구니 제거(주문 처리) -->
+	<delete id="deleteOrderCart">
+		delete from product_cart where memberId = #{memberId} and id = #{id}
+	</delete>
+
+</mapper>

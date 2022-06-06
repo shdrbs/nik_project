@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.clearfix {zoom:1;}
+.clearfix:before, .clearfix:after {content:"";display:table;}
+.clearfix:after {clear:both;}
+
+/* header 영역 */
+.wrapper{min-height: 100%; position: relative;}
+html, body {height: 100%}
+
+a.gnb{text-decoration: none; color: white; }
+a.content-img{text-decoration: none;}
+#gnb_logout_button {cursor: pointer;}
+.gnb:hover {color: #FFC107; }
+.logo-img{float: left; width: 60px;}
+.search-icon {font-size: 1.5em; font-weight: bold;}
+
+
+
