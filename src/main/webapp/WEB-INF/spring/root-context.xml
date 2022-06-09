@@ -39,7 +39,7 @@
 	<!-- HikariCP -->
 	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
         <property name="driverClassName" value="net.sf.log4jdbc.sql.jdbcapi.DriverSpy" />
-		<property name="jdbcUrl" value="jdbc:log4jdbc:oracle:thin:@182.215.106.3:1521:xe" />
+		<property name="jdbcUrl" value="jdbc:log4jdbc:oracle:thin:@localhost:1521:xe" />
 		<property name="username" value="nik" />
 		<property name="password" value="nik" />
     </bean>
@@ -81,26 +81,23 @@
 		</property>
 	</bean> -->
 
-	<!-- naver설정 -->
+	<!-- google email -->
 	<bean id="mailSender" class="org.springframework.mail.javamail.JavaMailSenderImpl">
-		<property name="host" value="smtp.naver.com" />
-		<property name="port" value="587" />
-		<property name="username" value="noin0527@naver.com" />
-		<property name="password" value="cyvk90432@" />
-		<property name="defaultEncoding" value="utf-8" />
-		<property name="javaMailProperties">
-			<props>
-			  	<prop key="mail.smtp.starttls.enable">true</prop>
+	    <property name="host" value="smtp.gmail.com" />
+	    <property name="port" value="587" />
+	    <property name="username" value="wntmxld55@gmail.com" />
+	    <property name="password" value="tpqiotwokxydyspx" />
+	    <property name="javaMailProperties">
+	        <props>
+	            <prop key="mail.smtp.starttls.enable">true</prop>
 				<prop key="mail.smtp.auth">true </prop>
 				<prop key="mail.transport.protocol">smtp</prop>
 				<prop key="mail.debug">true</prop>
-				<prop key="mail.smtp.ssl.trust">smtp.naver.com</prop>
+				<prop key="mail.smtp.ssl.trust">smtp.gmail.com</prop>
 				<prop key="mail.smtp.ssl.protocols">TLSv1.2</prop>
-			</props>
-		</property>
+	        </props>
+	    </property>
 	</bean>
-
-
 
 	<!-- 트랜잭션 -->
 	<bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

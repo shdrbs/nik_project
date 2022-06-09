@@ -240,9 +240,16 @@ function cartAlert(result){
 
 /* 바로구매 버튼 */
 $(".btn_buy").on("click", function(){
-	let count = $(".quantity_input").val();
-	$(".order_form").find("input[name='orders[0].count']").val(count);
-	$(".order_form").submit();
+	const memberId = '${member.memberId}';
+
+	if (memberId == null || memberId == "") {
+		alert("로그인을 해야 결제가 가능합니다.");
+	}else {
+
+		let count = $(".quantity_input").val();
+		$(".order_form").find("input[name='orders[0].count']").val(count);
+		$(".order_form").submit();
+	}
 });
 
 /* 리뷰쓰기 */

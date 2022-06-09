@@ -1,0 +1,431 @@
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 102001
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 102000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 청바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 102002
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 102000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 운동화
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 103001
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 103000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 런닝화
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 103002
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 103000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 샌들
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 103003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 103000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 구두
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 103004
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 103000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 
+|-----|---------|---------|-----------|
+|tier |catename |catecode |cateparent |
+|-----|---------|---------|-----------|
+|3    |셔츠       |101001   |101000     |
+|3    |반팔티      |101002   |101000     |
+|3    |후드티      |101003   |101000     |
+|3    |반바지      |102001   |102000     |
+|3    |청바지      |102002   |102000     |
+|3    |운동화      |103001   |103000     |
+|3    |런닝화      |103002   |103000     |
+|3    |샌들       |103003   |103000     |
+|3    |구두       |103004   |103000     |
+|-----|---------|---------|-----------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5a9d150f
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.service.ProductServiceImpl] [http-nio-0.0.0.0-8080-exec-10] -- getCateCode2().........
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.prepareStatement(select * from cate where
+				  cateCode = 201001 or
+			      cateCode = 201002 or
+			      cateCode = 201003 or
+			      cateCode = 202001 or
+			      cateCode = 202002 or
+			      cateCode = 203001 or
+			      cateCode = 203002 or
+			      cateCode = 203003) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@2544b5e2
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- select * from cate where cateCode = 201001 or cateCode = 201002 or cateCode = 201003 or cateCode 
+= 202001 or cateCode = 202002 or cateCode = 203001 or cateCode = 203002 or cateCode = 203003 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- select * from cate where cateCode = 201001 or cateCode = 201002 or cateCode = 201003 or cateCode 
+= 202001 or cateCode = 202002 or cateCode = 203001 or cateCode = 203002 or cateCode = 203003 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@62508cf4
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@7290df2c
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 201001
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 201000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반팔티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 201002
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 201000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 후드티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 201003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 201000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 치마
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 202001
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 202000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 202002
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 202000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 운동화
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 203001
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 203000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 힐
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 203002
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 203000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(TIER) returned 3
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 샌들
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATECODE) returned 203003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATEPARENT) returned 203000
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 
+|-----|---------|---------|-----------|
+|tier |catename |catecode |cateparent |
+|-----|---------|---------|-----------|
+|3    |셔츠       |201001   |201000     |
+|3    |반팔티      |201002   |201000     |
+|3    |후드티      |201003   |201000     |
+|3    |치마       |202001   |202000     |
+|3    |반바지      |202002   |202000     |
+|3    |운동화      |203001   |203000     |
+|3    |힐        |203002   |203000     |
+|3    |샌들       |203003   |203000     |
+|-----|---------|---------|-----------|
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@5a9d150f
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.clearWarnings() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.new PreparedStatement returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. Connection.prepareStatement(select * from
+		(select rownum as rn, id, name, ratingAvg,
+		(select cateName from cate c where p.cateCode = c.cateCode) as cateName
+		from product p
+		order by ratingAvg desc nulls last)) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@4ea06bce
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- select * from (select rownum as rn, id, name, ratingAvg, (select cateName from cate c where 
+p.cateCode = c.cateCode) as cateName from product p order by ratingAvg desc nulls last) 
+
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- select * from (select rownum as rn, id, name, ratingAvg, (select cateName from cate c where 
+p.cateCode = c.cateCode) as cateName from product p order by ratingAvg desc nulls last) 
+ {executed in 1 msec}
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.execute() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.new ResultSet returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@4ecb2c5d
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@289a2e5c
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getType() returned 1003
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2285
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 런닝화
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 5.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 런닝화
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2289
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 분홍색 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 4.5
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2287
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 보라색 반팔티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반팔티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2288
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 검정색 샌들
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 샌들
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2290
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 검정색 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2291
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 베이지색 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2292
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 운동화0502
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 운동화
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2293
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 청바지0501
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 청바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2305
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 검정색 힐0530
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 힐
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2295
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 검정색 후드티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 후드티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2296
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 흰색 반팔티0511
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반팔티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2297
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 반팔티0512
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반팔티
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2298
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 베이지색 샌들
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 샌들
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2299
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 셔츠0511
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2300
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 셔츠0512
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2301
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 셔츠0522
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2302
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 치마0513
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 치마
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2303
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 치마0519
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 치마
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2304
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 검정색 힐
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 힐
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2286
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 검정색 반바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 반바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2284
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 흰색 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 셔츠
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.next() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getInt(ID) returned 2294
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(NAME) returned 청바지0502
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getDouble(RATINGAVG) returned 0.0
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.getString(CATENAME) returned 청바지
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 1. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-10] -- 
+|---------|-----|-----------|----------|---------|
+|rn       |id   |name       |ratingavg |catename |
+|---------|-----|-----------|----------|---------|
+|[unread] |2285 |런닝화        |5.0       |런닝화      |
+|[unread] |2289 |분홍색 셔츠     |4.5       |셔츠       |
+|[unread] |2287 |보라색 반팔티    |[null]    |반팔티      |
+|[unread] |2288 |검정색 샌들     |[null]    |샌들       |
+|[unread] |2290 |검정색 셔츠     |[null]    |셔츠       |
+|[unread] |2291 |베이지색 셔츠    |[null]    |셔츠       |
+|[unread] |2292 |운동화0502    |[null]    |운동화      |
+|[unread] |2293 |청바지0501    |[null]    |청바지      |
+|[unread] |2305 |검정색 힐0530  |[null]    |힐        |
+|[unread] |2295 |검정색 후드티    |[null]    |후드티      |
+|[unread] |2296 |흰색 반팔티0511 |[null]    |반팔티      |
+|[unread] |2297 |반팔티0512    |[null]    |반팔티      |
+|[unread] |2298 |베이지색 샌들    |[null]    |샌들       |
+|[unread] |2299 |셔츠0511     |[null]    |셔츠       |
+|[unread] |2300 |셔츠0512     |[null]    |셔츠       |
+|[unread] |2301 |셔츠0522     |[null]    |셔츠       |
+|[unread] |2302 |치마0513     |[null]    |치마       |
+|[unread] |2303 |치마0519     |[null]    |치마       |
+|[unread] |2304 |검정색 힐      |[null]    |힐        |
+|[unread] |2286 |검정색 반바지    |[null]    |반바지      |
+|[unread] |2284 |흰색 셔츠      |[null]    |셔츠       |
+|[unread] |2294 |청바지0502    |[null]    |청바지      |
+|---------|-----|-----------|----------|---------|
+

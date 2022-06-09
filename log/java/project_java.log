@@ -1,314 +1,103 @@
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getString(UPLOADPATH) returned 2022\06\05
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.wasNull() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getString(UUID) returned 3703c193-7085-4372-9e71-dde0a0bd47e3
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.wasNull() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 
-|-----|-----------|-----------|-------------------------------------|
-|id   |filename   |uploadpath |uuid                                 |
-|-----|-----------|-----------|-------------------------------------|
-|2285 |남자런닝화1.jpg |2022\06\05 |3703c193-7085-4372-9e71-dde0a0bd47e3 |
-|-----|-----------|-----------|-------------------------------------|
-
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.next() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.close() returned void
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.isClosed() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. Connection.clearWarnings() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.new PreparedStatement returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. Connection.prepareStatement(select * from product_image where id = ?) returned net.sf.log4jdbc.sql.jdbcapi.PreparedStatementSpy@51156e21
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.setInt(1, 2284) returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- select * from product_image where id = 2284 
-
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- select * from product_image where id = 2284 
- {executed in 1 msec}
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.execute() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.new ResultSet returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.getResultSet() returned net.sf.log4jdbc.sql.jdbcapi.ResultSetSpy@798a4050
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getMetaData() returned oracle.jdbc.driver.OracleResultSetMetaData@2942a50a
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getType() returned 1003
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.next() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getInt(ID) returned 2284
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.wasNull() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getString(FILENAME) returned 남자셔츠1.jpg
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.wasNull() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getString(UPLOADPATH) returned 2022\06\05
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.wasNull() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.getString(UUID) returned 41d29cd9-247a-4ee3-8d71-5209a6cc7ff4
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.wasNull() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.getInt(ID) returned 2284
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.getString(FILENAME) returned 남자셔츠1.jpg
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.getString(UPLOADPATH) returned 2022\06\05
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.getString(UUID) returned 41d29cd9-247a-4ee3-8d71-5209a6cc7ff4
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.wasNull() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 
 |-----|----------|-----------|-------------------------------------|
 |id   |filename  |uploadpath |uuid                                 |
 |-----|----------|-----------|-------------------------------------|
 |2284 |남자셔츠1.jpg |2022\06\05 |41d29cd9-247a-4ee3-8d71-5209a6cc7ff4 |
 |-----|----------|-----------|-------------------------------------|
 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.next() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. ResultSet.close() returned void
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3aa48932
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.isClosed() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. PreparedStatement.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8080-exec-26] -- 1. Connection.clearWarnings() returned 
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-24] -- getImage()........2022\06\05/thumbnail_128c4fa4-0d37-49f5-a262-a0d30a8e8511_여자치마2.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-29] -- getImage()........2022\06\05/thumbnail_f22617e6-599f-4e6d-aa1f-85508eb5634d_여자힐1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-30] -- getImage()........2022\06\05/thumbnail_a558fe53-d123-44db-b289-d8c9113f7fe2_남자반바지1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-30] -- getImage()........2022\06\05/thumbnail_41d29cd9-247a-4ee3-8d71-5209a6cc7ff4_남자셔츠1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-28] -- getImage()........2022\06\05/thumbnail_58800521-aac2-4403-836f-b5fa362818a2_남자청바지2.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-27] -- getImage()........2022\06\05/thumbnail_3703c193-7085-4372-9e71-dde0a0bd47e3_남자런닝화1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-22] -- getImage()........2022\06\05/thumbnail_785f601d-96a0-4e7d-9570-4b44f08dff46_남자셔츠2.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-22] -- getImage()........2022\06\05/thumbnail_601b41ae-5bf1-4e57-9c7f-443b1ccbdf20_남자반팔1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-29] -- getImage()........2022\06\05/thumbnail_6b0a0af1-a50d-4e00-94b9-1a8754c58852_남자셔츠6.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-26] -- getImage()........2022\06\05/thumbnail_79b9981b-3643-4861-9726-85a36f0ee88c_남자셔츠5.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-25] -- getImage()........2022\06\05/thumbnail_24b9dd7b-c9ac-45d3-a164-7f206d55e5c1_남자샌들1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-24] -- getImage()........2022\06\05/thumbnail_ccd2e71a-3529-4f3a-9de9-c6177d6606b3_남자운동화1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-25] -- getImage()........2022\06\05/thumbnail_83047915-5de7-46dd-bdf1-494e54044ad1_남자청바지1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-24] -- getImage()........2022\06\05/thumbnail_2245fb8a-4d5f-40fe-9ec0-5a1ed1d24cd2_여자힐2.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-28] -- getImage()........2022\06\05/thumbnail_7ac9db55-c40e-4650-b91e-d73a8a6bb478_여자반팔1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-27] -- getImage()........2022\06\05/thumbnail_e4a069f0-ff03-48c1-a5ee-db8f629f03b5_남자후드티1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-31] -- getImage()........2022\06\05/thumbnail_f71b1755-2c5c-4607-8e7e-24569b61392a_여자반팔2.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-22] -- getImage()........2022\06\05/thumbnail_7a88e2b2-2085-498e-b8bd-ce6af1d6105a_여자샌들1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-22] -- getImage()........2022\06\05/thumbnail_1ae5871c-fa0d-4f6c-96a3-cc19ddd94336_여자셔츠2.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-23] -- getImage()........2022\06\05/thumbnail_7133fc81-a8e1-4329-bbb1-9d2f08aeff71_여자셔츠1.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-29] -- getImage()........2022\06\05/thumbnail_8c165b6e-2243-4729-9499-067bf0385513_여자셔츠3.jpg
-[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8080-exec-30] -- getImage()........2022\06\05/thumbnail_cd1f146e-c91f-4885-ab1d-b7df61216699_여자치마1.jpg
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 6. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 6. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 11. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 11. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 11. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 11. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 5. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 5. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 12. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 12. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 12. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 12. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 9. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 9. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 13. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 13. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 13. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 13. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 7. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 7. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 14. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 14. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 14. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 14. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 1. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 1. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 15. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 15. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 15. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 15. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 3. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 3. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 16. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 16. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 16. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 16. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 4. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 4. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 17. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 17. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 17. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 17. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 10. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 10. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 18. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 18. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 18. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 18. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 2. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 2. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 19. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 19. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 19. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 19. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 8. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 8. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 20. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 20. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 20. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 20. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 12. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 12. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 21. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 21. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 21. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 21. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 13. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 13. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 22. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 22. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 22. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 22. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 15. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 15. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 23. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 23. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 23. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 23. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 11. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 11. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 24. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 24. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 24. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 24. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 14. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 14. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 25. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 25. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 25. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 25. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 17. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 17. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 26. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 26. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 26. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 26. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 20. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 20. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 27. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 27. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 27. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 27. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 18. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 18. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 28. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 28. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 28. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 28. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 19. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 19. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 29. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 29. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 29. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 29. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 16. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 16. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 30. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 30. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 30. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 30. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 22. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 22. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 31. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 31. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 31. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 31. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 23. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 23. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 32. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 32. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 32. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 32. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 27. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 27. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 33. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 33. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 33. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 33. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 21. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 21. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 34. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 34. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 34. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 34. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 26. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 26. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 35. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 35. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 35. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 35. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 29. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 29. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 36. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 36. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 36. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 36. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 25. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 25. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 37. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 37. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 37. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 37. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 30. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 30. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 38. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 38. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 38. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 38. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 24. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 24. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 39. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 39. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 39. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 39. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 28. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 28. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 40. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 40. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 40. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 40. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 36. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 36. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 41. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 41. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 41. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 41. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 33. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 33. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 42. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 42. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 42. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 42. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 31. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 31. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 43. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 43. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 43. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 43. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 32. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 32. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 44. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 44. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 44. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 44. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 35. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 35. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 45. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 45. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 45. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 45. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 37. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 37. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 46. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 46. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 46. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 46. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 38. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 38. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 47. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 47. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 47. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 47. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 40. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 40. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 48. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 48. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 48. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 48. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 34. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 34. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 49. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 49. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 49. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 49. Connection.getAutoCommit() returned true
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 39. Connection closed
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection closer] -- 39. Connection.close() returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 50. Connection opened
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 50. Connection.new Connection returned 
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 50. Connection.isReadOnly() returned false
-[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-4 connection adder] -- 50. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.next() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. ResultSet.close() returned void
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. Connection.getMetaData() returned oracle.jdbc.driver.OracleDatabaseMetaData@3e27ce84
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. PreparedStatement.isClosed() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. PreparedStatement.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [http-nio-0.0.0.0-8181-exec-1] -- 11. Connection.clearWarnings() returned 
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-7] -- getImage()........2022\06\05/thumbnail_8c165b6e-2243-4729-9499-067bf0385513_여자셔츠3.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-4] -- getImage()........2022\06\05/thumbnail_128c4fa4-0d37-49f5-a262-a0d30a8e8511_여자치마2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-8] -- getImage()........2022\06\05/thumbnail_f22617e6-599f-4e6d-aa1f-85508eb5634d_여자힐1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-4] -- getImage()........2022\06\05/thumbnail_a558fe53-d123-44db-b289-d8c9113f7fe2_남자반바지1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-2] -- getImage()........2022\06\05/thumbnail_41d29cd9-247a-4ee3-8d71-5209a6cc7ff4_남자셔츠1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-10] -- getImage()........2022\06\05/thumbnail_58800521-aac2-4403-836f-b5fa362818a2_남자청바지2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-5] -- getImage()........2022\06\05/thumbnail_3703c193-7085-4372-9e71-dde0a0bd47e3_남자런닝화1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-3] -- getImage()........2022\06\05/thumbnail_785f601d-96a0-4e7d-9570-4b44f08dff46_남자셔츠2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-6] -- getImage()........2022\06\05/thumbnail_601b41ae-5bf1-4e57-9c7f-443b1ccbdf20_남자반팔1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-7] -- getImage()........2022\06\05/thumbnail_6b0a0af1-a50d-4e00-94b9-1a8754c58852_남자셔츠6.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-1] -- getImage()........2022\06\05/thumbnail_24b9dd7b-c9ac-45d3-a164-7f206d55e5c1_남자샌들1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-3] -- getImage()........2022\06\05/thumbnail_79b9981b-3643-4861-9726-85a36f0ee88c_남자셔츠5.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-7] -- getImage()........2022\06\05/thumbnail_ccd2e71a-3529-4f3a-9de9-c6177d6606b3_남자운동화1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-1] -- getImage()........2022\06\05/thumbnail_83047915-5de7-46dd-bdf1-494e54044ad1_남자청바지1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-10] -- getImage()........2022\06\05/thumbnail_2245fb8a-4d5f-40fe-9ec0-5a1ed1d24cd2_여자힐2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-2] -- getImage()........2022\06\05/thumbnail_e4a069f0-ff03-48c1-a5ee-db8f629f03b5_남자후드티1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-5] -- getImage()........2022\06\05/thumbnail_7ac9db55-c40e-4650-b91e-d73a8a6bb478_여자반팔1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-6] -- getImage()........2022\06\05/thumbnail_7a88e2b2-2085-498e-b8bd-ce6af1d6105a_여자샌들1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-2] -- getImage()........2022\06\05/thumbnail_7133fc81-a8e1-4329-bbb1-9d2f08aeff71_여자셔츠1.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-9] -- getImage()........2022\06\05/thumbnail_f71b1755-2c5c-4607-8e7e-24569b61392a_여자반팔2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-8] -- getImage()........2022\06\05/thumbnail_1ae5871c-fa0d-4f6c-96a3-cc19ddd94336_여자셔츠2.jpg
+[INFO ] [com.nik.project.controller.ProductController] [http-nio-0.0.0.0-8181-exec-7] -- getImage()........2022\06\05/thumbnail_cd1f146e-c91f-4885-ab1d-b7df61216699_여자치마1.jpg
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 12. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 12. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 21. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 21. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 21. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 21. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 15. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 15. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 22. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 22. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 22. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 22. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 11. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 11. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 23. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 23. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 23. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 23. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 13. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 13. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 24. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 24. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 24. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 24. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 14. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 14. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 25. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 25. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 25. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 25. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 20. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 20. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 26. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 26. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 26. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 26. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 16. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 16. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 27. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 27. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 27. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 27. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 18. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 18. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 28. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 28. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 28. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 28. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 17. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 17. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 29. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 29. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 29. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 29. Connection.getAutoCommit() returned true
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 19. Connection closed
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection closer] -- 19. Connection.close() returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 30. Connection opened
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 30. Connection.new Connection returned 
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 30. Connection.isReadOnly() returned false
+[INFO ] [net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator] [HikariPool-1 connection adder] -- 30. Connection.getAutoCommit() returned true
